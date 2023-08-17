@@ -12,6 +12,6 @@ apt-get update && \
 touch ~/.pgpass || exit 1;
 chmod 0600 ~/.pgpass || exit 1;
 
-wget https://github.com/prasmussen/gdrive/releases/download/2.1.1/gdrive_2.1.1_linux_amd64.tar.gz || exit 1;
-tar -zxvf gdrive_2.1.1_linux_amd64.tar.gz || exit 1;
+wget https://github.com/canadyworkshop/googledrive/releases/download/v0.0.2/googledrive_0.0.2_linux_amd64.tar.gz || exit 1;
+tar -zxvf googledrive_0.0.2_linux_amd64.tar.gz || exit 1;
 
